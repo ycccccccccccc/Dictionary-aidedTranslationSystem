@@ -8,7 +8,7 @@
 * Integrating a dictionary into the preprocessing phase of machine translation
 * Allowing users to specify translations for specific terminologies
 
-#### In the fall of 2022, I and my team have completed a translation system that enhances the accuracy of translations. Here are some key features:
+#### In fall 2022, my team and I have completed a translation system that enhances the accuracy of translations. Here are some key features:
 
 * Making machine-assisted translation more practical
 * No need for retraining when encountering new vocabulary
