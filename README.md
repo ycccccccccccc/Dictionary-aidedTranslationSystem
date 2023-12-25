@@ -62,16 +62,16 @@
 
 ### Training
 
-    Execute `bash run_translation.sh` to start training. Before training, several important parameters in run_translation.sh need to be specified:
+  Execute `bash run_translation.sh` to start training. Before training, several important parameters in run_translation.sh need to be specified:
 
-    --output_dir: Path to save the model
-    --train_file: Path to the training dataset
-    --validation_file: Path to the validation dataset
-    --test_file: Path to the test dataset
-    --num_train_epochs: Number of training epochs
-    --replace_terms: Whether to perform term replacement (set to true for the model to have term replacement functionality)
+  --output_dir: Path to save the model
+  --train_file: Path to the training dataset
+  --validation_file: Path to the validation dataset
+  --test_file: Path to the test dataset
+  --num_train_epochs: Number of training epochs
+  --replace_terms: Whether to perform term replacement (set to true for the model to have term replacement functionality)
 
-    If inference is needed, remove `--do_train` and `--do_eval`.
+  If inference is needed, remove `--do_train` and `--do_eval`.
 
 
 
