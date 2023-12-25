@@ -1,0 +1,25 @@
+python ./run_translation.py \
+    --model_name_or_path "liam168/trans-opus-mt-en-zh" \
+    --special_token_numbers 30 \
+    --do_eval \
+    --do_train \
+    --do_predict \
+    --source_lang en \
+    --target_lang zh \
+    --output_dir "./results/H01L-replace-10" \
+    --per_device_train_batch_size=4 \
+    --per_device_eval_batch_size=4 \
+    --max_source_length 256 \
+    --max_target_length 256 \
+    --eval_steps 1250 \
+    --overwrite_output_dir \
+    --predict_with_generate \
+    --seed 7777 \
+    --train_file "./data/H01L_train.json" \
+    --validation_file "./data/H01L_val.json" \
+    --test_file "./data/H01L_test.json" \
+    --num_train_epochs 4 \
+    --fp16 true \
+    --num_beams 5 \
+    --max_predict_samples 500 \
+    --replace_terms true
